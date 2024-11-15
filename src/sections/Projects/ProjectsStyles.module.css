@@ -1,0 +1,29 @@
+.projectsContainer {
+  display: flex;
+  flex-direction: column; /* Vertical on small screens */
+  align-items: center;
+  gap: 10px; /* space between items */
+}
+
+.projectsContainer a {
+  text-align: center;
+  width: 100%;
+  max-width: 300px; /* control width for each card */
+  margin: 10px 0;
+}
+
+.projectsContainer img {
+  max-width: 100%; /* make images responsive */
+  height: auto;
+}
+
+/* Media query for larger screens */
+@media (min-width: 800px) {
+  .projectsContainer {
+    flex-direction: row; /* Horizontal on large screens */
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* space items evenly across the container */
+    padding: 0 30px;
+    gap: 30px; /* Increase space between items for larger screens */
+  }
+}

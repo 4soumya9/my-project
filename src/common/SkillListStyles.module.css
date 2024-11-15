@@ -1,0 +1,47 @@
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.skillList {
+  display: grid;
+  grid-template-columns: 1fr; /* Default to single column */
+  gap: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .skillList {
+    grid-template-columns: repeat(3, 1fr); /* Three columns on larger screens */
+    max-width: 800px; /* Optional: to control max width and center the grid */
+    margin: 0 auto; /* Center the grid within its container */
+  }
+}
+
+.skillCard {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.skillCard img {
+  width: 24px;
+  height: 24px;
+}
+
+@media (min-width: 600px) {
+  .skillCard img {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .skillCard img {
+    width: 32px;
+    height: 32px;
+  }
+}
