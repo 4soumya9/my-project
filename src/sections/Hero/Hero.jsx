@@ -8,9 +8,8 @@ import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
-import CV from "../../assets/cv.pdf";
-import Soumya_Date15th from "../../assets/Soumya_Date15thNov.pdf"
 import { useTheme } from "../../common/ThemeContext";
+import SoumyaFrontEndDec from "../../assets/SoumyaFrontEndDec.pdf"
 
 const Hero = () => {
   const { theme, toggleTheme } = useTheme();
@@ -60,7 +59,9 @@ const Hero = () => {
           creating dynamic user interfaces and actively seeking new
           opportunities to grow and contribute.
         </p>
-        <a href={Soumya_Date15th} download>
+        {/* <a href={Soumya_Date15th} download> */}
+        <a href={SoumyaFrontEndDec} download>
+
           <button className="hover">Resume</button>
         </a>
       </div>
