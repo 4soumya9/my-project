@@ -9,8 +9,8 @@ import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
 import { useTheme } from "../../common/ThemeContext";
-import SoumyaFrontEndDec from "../../assets/SoumyaFrontEndDec.pdf"
-
+import tEndDec from "../../assets/SoumyaFrontEndDec.pdf";
+import SoumyajitResume from "../../assets/SoumyajitFrontEndJan.pdf"
 const Hero = () => {
   const { theme, toggleTheme } = useTheme();
 
@@ -60,8 +60,9 @@ const Hero = () => {
           opportunities to grow and contribute.
         </p>
         {/* <a href={Soumya_Date15th} download> */}
-        <a href={SoumyaFrontEndDec} download>
-
+        {/* <a href={SoumyaFrontEndDec} download> */}
+        <a href={SoumyajitResume} download>
+          
           <button className="hover">Resume</button>
         </a>
       </div>
