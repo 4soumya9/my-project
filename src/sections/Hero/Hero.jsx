@@ -10,7 +10,8 @@ import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
 import { useTheme } from "../../common/ThemeContext";
 import tEndDec from "../../assets/SoumyaFrontEndDec.pdf";
-import SoumyajitResume from "../../assets/SoumyajitFrontEndJan.pdf"
+// import SoumyajitResume from "../../assets/SoumyajitFrontEndJan.pdf";
+import SoumyaResume from "../../assets/SoumyajitFrontEndDeveloperFeb2.pdf";
 const Hero = () => {
   const { theme, toggleTheme } = useTheme();
 
@@ -48,7 +49,7 @@ const Hero = () => {
             <img src={githubIcon} alt="Github icon" />
           </a>
           <a
-            href="https://www.linkedin.com/in/soumyajit-saha-9b4186191/"
+            href="https://www.linkedin.com/in/soumyajit-saha-%F0%9F%9A%80-9b4186191/"
             target="_blank"
           >
             <img src={linkedinIcon} alt="Linkedin icon" />
@@ -61,8 +62,7 @@ const Hero = () => {
         </p>
         {/* <a href={Soumya_Date15th} download> */}
         {/* <a href={SoumyaFrontEndDec} download> */}
-        <a href={SoumyajitResume} download>
-          
+        <a href={SoumyaResume} download>
           <button className="hover">Resume</button>
         </a>
       </div>
