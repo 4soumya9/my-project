@@ -10,8 +10,9 @@ import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
 import { useTheme } from "../../common/ThemeContext";
 
-import SoumyaResume from "../../assets/SoumyajitFrontEndDeveloperFeb2.pdf";
+// import SoumyaResume from "../../assets/SoumyajitFrontEndDeveloperFeb2.pdf";
 import SoumyaFrontResume from "../../assets/Soumyajit_FrontEnd_Mar.pdf";
+import SoumyaResumeT from "../../assets/Soumyajit_resume_t1.pdf";
 const Hero = () => {
   const { theme, toggleTheme } = useTheme();
 
@@ -62,7 +63,7 @@ const Hero = () => {
         </p>
         {/* <a href={Soumya_Date15th} download> */}
         {/* <a href={SoumyaFrontEndDec} download> */}
-        <a href={ SoumyaFrontResume} download>
+        <a href={SoumyaResumeT} download>
           <button className="hover">Resume</button>
         </a>
       </div>
